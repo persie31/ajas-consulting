@@ -165,7 +165,7 @@ export default function SiteFooter() {
                 <a href="#" aria-label="Twitter" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
                   <Twitter size={18} fill="currentColor" strokeWidth={0} />
                 </a>
-                <a href="#" aria-label="LinkedIn" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
+                <a href="https://www.linkedin.com/company/ajas-consulting/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
                   <Linkedin size={18} fill="currentColor" strokeWidth={0} />
                 </a>
                 <a href="#" aria-label="Instagram" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
