@@ -15,7 +15,7 @@ export default function ServiceDetailPage() {
   return (
     <div className="min-h-screen bg-[#f5f6f7]">
       {/* ── HERO ────────────────────────────────────────────── */}
-      <section className="relative isolate pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-[#050e1a] border-b border-white/5">
+      <section className="relative isolate pt-12 pb-20 md:pt-12 md:pb-32 overflow-hidden bg-[#050e1a] border-b border-white/5">
         <div className="absolute inset-0 -z-20">
           <img
             src={`https://images.unsplash.com/${service.image}?auto=format&fit=crop&w=2800&q=80`}

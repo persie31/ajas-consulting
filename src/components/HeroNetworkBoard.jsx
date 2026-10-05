@@ -2,10 +2,10 @@ import { Briefcase, Code2, LineChart, UsersRound } from 'lucide-react'
 
 /* ─── 4 corners around center (200,200) in a 400×400 viewBox ─── */
 const nodes = [
-  { id: 'strategy',    label: 'IT Recruitment', Icon: Code2,       cx:  85, cy:  85 },   // NW
-  { id: 'data',        label: 'Staffing',        Icon: UsersRound,  cx: 315, cy:  85 },   // NE
-  { id: 'engineering', label: 'Consulting',      Icon: LineChart,   cx: 315, cy: 315 },   // SE
-  { id: 'talent',      label: 'Talent',          Icon: Briefcase,   cx:  85, cy: 315 },   // SW
+  { id: 'technology', label: 'Technology', Icon: Code2,       cx:  85, cy:  85 },   // NW
+  { id: 'staffing',   label: 'Staffing',   Icon: UsersRound,  cx: 315, cy:  85 },   // NE
+  { id: 'strategy',   label: 'Strategy',   Icon: LineChart,   cx: 315, cy: 315 },   // SE
+  { id: 'delivery',   label: 'Delivery',   Icon: Briefcase,   cx:  85, cy: 315 },   // SW
 ]
 
 const CORE = { cx: 200, cy: 200 }

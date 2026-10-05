@@ -43,7 +43,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-8 mx-auto max-w-2xl text-lg md:text-xl leading-relaxed text-white/70 font-light">
-            AJAS is an elite US IT Staffing and Technology Consulting firm. We bridge the gap between highly sought-after technical talent and the organizations architecting the future.
+            AJAS is an elite  Staffing and Technology Consulting firm. We bridge the gap between highly sought-after technical talent and the organizations architecting the future.
           </p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-5">
@@ -215,14 +215,14 @@ export default function AboutPage() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vw] md:w-[50rem] md:h-[50rem] bg-[#d8ad61]/10 rounded-full blur-[120px] opacity-50 pointer-events-none" />
 
         <div className="mx-auto max-w-7xl relative z-10">
-          
+
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20 md:mb-28" data-reveal>
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 rounded-full border border-[#d8ad61]/30 bg-[#d8ad61]/10 px-4 py-1.5 mb-6 shadow-sm">
                 <span className="text-[0.65rem] font-bold uppercase tracking-[0.25em] text-[#e5bd72]">How We Work</span>
               </div>
               <h2 className="font-display text-4xl md:text-6xl font-bold uppercase leading-[1.1] text-white">
-                Engineered for <br/>
+                Engineered for <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#e5bd72] to-[#d8ad61]">Precision.</span>
               </h2>
             </div>
@@ -237,8 +237,8 @@ export default function AboutPage() {
               { step: '02', title: 'Match', subtitle: 'With Precision', copy: 'Leveraging our vast US network and internal engineering expertise, we identify, rigorously vet, and present only the exact right fit—whether for specialized short-term contracts or permanent roles.' },
               { step: '03', title: 'Deliver', subtitle: 'Comprehensively', copy: 'We ensure seamless onboarding and integration. Beyond just staffing, our technology consulting arm remains available to architect and support your ongoing critical initiatives.' },
             ].map(({ step, title, subtitle, copy }, i) => (
-              <div 
-                key={step} 
+              <div
+                key={step}
                 className="group relative flex flex-col justify-between h-full min-h-[400px] rounded-[2rem] bg-white/[0.02] border border-white/5 p-8 md:p-10 overflow-hidden transition-all duration-700 hover:bg-white/[0.04] hover:border-[#d8ad61]/30 hover:shadow-[0_20px_60px_rgba(216,173,97,0.1)]"
                 data-reveal
                 style={{ '--reveal-delay': `${i * 150}ms` }}
@@ -255,7 +255,7 @@ export default function AboutPage() {
                   <div className="w-12 h-12 mb-8 rounded-full border border-white/10 flex items-center justify-center bg-white/5 group-hover:border-[#e5bd72]/50 group-hover:bg-[#e5bd72]/10 transition-colors duration-500">
                     <span className="text-[#a0abbb] group-hover:text-[#e5bd72] font-mono text-sm tracking-wider transition-colors duration-500">{step}</span>
                   </div>
-                  
+
                   <h3 className="font-display text-3xl font-bold uppercase text-white mb-2 tracking-tight group-hover:text-[#e5bd72] transition-colors duration-500">
                     {title}
                   </h3>
