@@ -42,9 +42,13 @@ export default function AboutPage() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#e5bd72] via-[#d8ad61] to-[#b3883a]">We Engineer Teams.</span>
           </h1>
 
-          <p className="mt-8 mx-auto max-w-2xl text-lg md:text-xl leading-relaxed text-white/70 font-light">
-            AJAS is an IT services and consulting firm delivering high-impact technology solutions and talent strategies to enterprises across multiple industries.
-          </p>
+          <div className="mt-12 mx-auto max-w-3xl rounded-3xl border border-[#d8ad61]/20 bg-gradient-to-b from-[#050e1a]/80 to-[#091524]/40 p-8 md:p-10 shadow-[0_0_50px_rgba(216,173,97,0.08)] backdrop-blur-xl relative overflow-hidden group transition-all duration-700 hover:border-[#d8ad61]/40">
+            {/* Subtle inner glow */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#e5bd72]/0 via-[#e5bd72]/5 to-[#e5bd72]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+            <p className="relative z-10 text-xl md:text-2xl leading-relaxed text-white/80 font-light text-center">
+              <strong className="text-white font-medium tracking-wide">AJAS</strong> is an IT services and consulting firm delivering <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#e5bd72] to-[#d8ad61] font-semibold">high-impact technology solutions</span> and talent strategies to enterprises across multiple industries.
+            </p>
+          </div>
 
           <div className="mt-12 flex flex-wrap justify-center gap-5">
             <Link
