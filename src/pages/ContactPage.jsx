@@ -54,16 +54,6 @@ export default function ContactPage() {
                   <p className="mt-1 text-base leading-7 text-white/80">1001 S Main St, Ste 500<br />Kalispell, MT 59901</p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-4 group">
-                <div className="grid size-12 shrink-0 place-items-center rounded-xl bg-white/5 border border-white/10 transition-colors group-hover:bg-[#e5bd72]/10 group-hover:border-[#e5bd72]/30 group-hover:text-[#e5bd72] text-white/40">
-                  <Phone size={20} strokeWidth={1.5} />
-                </div>
-                <div>
-                  <p className="text-[0.65rem] font-bold uppercase tracking-[0.15em] text-[#e5bd72]">Call Us</p>
-                  <a href="tel:6096812601" className="mt-1 block text-lg font-medium text-white transition-colors hover:text-[#e5bd72]">609-681-2601</a>
-                </div>
-              </div>
             </div>
           </div>
 
