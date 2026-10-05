@@ -4,6 +4,27 @@ import { useState } from 'react'
 import { contactEmail, navigation, services } from '../data/siteContent.js'
 import Brand from './Brand.jsx'
 
+const Facebook = ({ size = 24, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="currentColor" stroke="none" {...props}>
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  </svg>
+)
+const Twitter = ({ size = 24, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="currentColor" stroke="none" {...props}>
+    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+  </svg>
+)
+const Linkedin = ({ size = 24, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="currentColor" stroke="none" {...props}>
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+  </svg>
+)
+const Instagram = ({ size = 24, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+  </svg>
+)
+
 export default function SiteFooter() {
   const [email, setEmail] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -131,9 +152,27 @@ export default function SiteFooter() {
         </div>
 
         <div className="footer-main mx-auto grid max-w-7xl gap-x-9 gap-y-10 px-6 pb-12 pt-8 sm:grid-cols-2 md:px-10 md:pb-14 lg:grid-cols-12 lg:gap-x-8">
-          <div className="sm:col-span-2 lg:col-span-3">
+          <div className="sm:col-span-2 lg:col-span-3 flex flex-col items-start">
             <Brand />
-            <p className="mt-5 max-w-sm text-sm leading-6 text-white/60">Technology, talent, and transformation for organizations ready to move forward.</p>
+            <p className="mt-6 mb-8 max-w-sm text-sm leading-6 text-white/60">Technology, talent, and transformation for organizations ready to move forward.</p>
+            
+            <div className="mt-auto">
+              <h3 className="font-display text-xl mb-4 text-white">Follow us</h3>
+              <div className="flex gap-3">
+                <a href="#" aria-label="Facebook" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
+                  <Facebook size={18} fill="currentColor" strokeWidth={0} />
+                </a>
+                <a href="#" aria-label="Twitter" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
+                  <Twitter size={18} fill="currentColor" strokeWidth={0} />
+                </a>
+                <a href="#" aria-label="LinkedIn" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
+                  <Linkedin size={18} fill="currentColor" strokeWidth={0} />
+                </a>
+                <a href="#" aria-label="Instagram" className="flex h-11 w-11 items-center justify-center rounded-full border border-white/50 text-white transition-all hover:bg-white/10 hover:border-white hover:scale-105">
+                  <Instagram size={20} strokeWidth={2} />
+                </a>
+              </div>
+            </div>
           </div>
           <nav aria-label="Footer navigation" className="lg:col-span-2">
             <h2 className="footer-heading">Explore AJAS</h2>

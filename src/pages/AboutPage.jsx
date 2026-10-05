@@ -43,7 +43,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-8 mx-auto max-w-2xl text-lg md:text-xl leading-relaxed text-white/70 font-light">
-            AJAS is an elite  Staffing and Technology Consulting firm. We bridge the gap between highly sought-after technical talent and the organizations architecting the future.
+            AJAS is an IT services and consulting firm delivering high-impact technology solutions and talent strategies to enterprises across multiple industries.
           </p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-5">
@@ -117,11 +117,19 @@ export default function AboutPage() {
               </h2>
 
               <p className="text-base leading-8 text-[#536579] font-light mb-6">
-                <strong className="font-semibold text-[#10243a]">AJAS's primary focus is delivering elite US IT staffing solutions.</strong> We connect organizations with highly specialized, thoroughly vetted technical talent—from Cloud Architects to Full-Stack Engineers and AI Specialists.
+                We are an AI-driven, people-centric organization combining engineering expertise, strategic consulting, and precision-led talent solutions to support some of today’s most innovative and fast-growing businesses. Our focus is on empowering organizations and professionals with the right opportunities, capabilities, and networks to build, scale, and lead.
+              </p>
+
+              <p className="text-base leading-8 text-[#536579] font-light mb-6">
+                We partner with organizations to solve complex business challenges through a combination of technology expertise, strategic consulting, and intelligent talent alignment. Our approach is rooted in understanding client objectives, aligning the right capabilities, and executing with speed and quality.
+              </p>
+
+              <p className="text-base leading-8 text-[#536579] font-light mb-6">
+                At AJAS, we go beyond conventional service models. We work closely with our clients to design scalable solutions, support digital transformation initiatives, and enable business growth through the right mix of consulting, engineering, and specialized talent.
               </p>
 
               <p className="text-base leading-8 text-[#536579] font-light mb-10">
-                Because we are also a technology consulting firm, we don't just match keywords on a resume. We understand the technical nuances of your projects. We pair our staffing excellence with deep engineering capabilities to architect, modernize, and deliver critical initiatives for enterprise environments.
+                We serve clients across a diverse range of industries including banking & financial services, healthcare, telecommunications, insurance, retail, and manufacturing—supporting both mid-sized organizations and Fortune 500 enterprises. Our philosophy is simple: deliver measurable outcomes through expertise, accountability, and execution excellence.
               </p>
 
               <div className="grid grid-cols-2 gap-4">
